@@ -234,6 +234,10 @@
         {{- /* Footer */ -}}
         {{- partial "single/footer.html" . -}}
 
+        <div class="commentbox"></div>
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>commentBox('5750358227812352-proj')</script>
+
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
     </article>
