@@ -8,11 +8,11 @@
 .logo {
   min-height: 3em !important;
   height:     3em !important;
+  display: block !important;
 }
 
 // if you need to force the actual <img> inside not to get squashed:
 .logo img {
   height: auto;
-  max-height: 3em !important;
-  width: auto;
+  width: 48px;
 }
