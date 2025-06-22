@@ -1186,24 +1186,6 @@ html.dark {
   color: lightblue; /* Hover state: light blue */
 }
 
-// assets/css/custom.scss
-
-// Targeting the specific image element within its container
-.header-title a img {
-    // Override the inline height and width
-    height: auto !important; // Use !important to override inline styles
-    width: auto !important;  // Use !important to override inline styles
-
-    // Set your desired maximum height or width here
-    max-height: 100px; // Adjust this value to make your logo larger (e.g., 80px, 120px)
-    max-width: 250px;  // Optional: Set a max-width if you want to limit its horizontal spread
-}
-
-// You might also want to adjust the padding around the title/logo area
-.header-title {
-    padding: 10px 0; // Adjust top/bottom padding as needed
-}
-
 @media (min-width: 768px) {
   .md\:tw-hidden {
     display: none;
