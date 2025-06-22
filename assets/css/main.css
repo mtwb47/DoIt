@@ -1178,6 +1178,14 @@ html.dark {
   border-color: rgb(54 54 54 / var(--tw-border-opacity, 1));
 }
 
+#ann a {
+  color: blue; /* Normal state: blue */
+}
+
+#ann a:hover {
+  color: lightblue; /* Hover state: light blue */
+}
+
 @media (min-width: 768px) {
   .md\:tw-hidden {
     display: none;
