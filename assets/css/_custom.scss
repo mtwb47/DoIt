@@ -5,13 +5,13 @@
 
 
 // bump logo to ~3 em tall (≈48 px if your base font-size is 16px)
-.header-title {
+.logo {
   min-height: 3em !important;
   height:     3em !important;
 }
 
 // if you need to force the actual <img> inside not to get squashed:
-.header-title img {
+.logo img {
   height: auto;
   max-height: 3em !important;
   width: auto;
