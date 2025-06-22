@@ -2,3 +2,145 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+
+/*
+ * Custom CSS for ReplyBox Comments
+ * Applies to the #replybox div and its content to match site theme
+ * Background color: #35383d (dark grey)
+ * Text color: Light colors for readability
+ */
+
+/* Main ReplyBox container background */
+#replybox {
+    background-color: #35383d;
+    padding: 20px; /* Add some padding around the comments section */
+    border-radius: 8px; /* Optional: subtle rounded corners */
+    margin-top: 30px; /* Optional: space above the comments */
+    margin-bottom: 30px; /* Optional: space below the comments */
+}
+
+/* General text color for all elements within ReplyBox */
+#replybox,
+#replybox p,
+#replybox span,
+#replybox a,
+#replybox label,
+#replybox strong,
+#replybox em,
+#replybox li,
+#replybox div.rb-comment-body, /* Common class for comment text */
+#replybox .rb-meta-item /* Common class for metadata like time, author */
+{
+    color: #f0f0f0; /* Light grey for general text for readability */
+}
+
+/* Headings within ReplyBox (e.g., "Add a comment", "Comments") */
+#replybox h1,
+#replybox h2,
+#replybox h3,
+#replybox h4,
+#replybox h5,
+#replybox h6 {
+    color: #ffffff; /* Pure white for headings to stand out */
+}
+
+/* Links within ReplyBox */
+#replybox a {
+    color: #add8e6; /* Light blue for links */
+    text-decoration: underline; /* Keep underline for clarity */
+}
+
+#replybox a:hover,
+#replybox a:focus {
+    color: #87cefa; /* Slightly brighter blue on hover/focus */
+    text-decoration: none; /* Remove underline on hover for effect */
+}
+
+/* Input fields (text, email, textarea for comments) */
+#replybox input[type="text"],
+#replybox input[type="email"],
+#replybox textarea {
+    background-color: #404348; /* Slightly lighter dark grey for input backgrounds */
+    color: #ffffff; /* White text input */
+    border: 1px solid #505358; /* Subtle border */
+    padding: 10px;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Account for padding and border */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Placeholder text in input fields */
+#replybox input::placeholder,
+#replybox textarea::placeholder {
+    color: #cccccc; /* Lighter grey for placeholder text */
+    opacity: 1; /* Ensures placeholder is fully visible in some browsers */
+}
+
+/* Buttons (e.g., "Post Comment", "Reply") */
+#replybox button,
+#replybox input[type="submit"] {
+    background-color: #55585d; /* Medium dark grey for button background */
+    color: #ffffff; /* White text on buttons */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#replybox button:hover,
+#replybox input[type="submit"]:hover {
+    background-color: #65686d; /* Slightly lighter on hover */
+}
+
+/* Specific elements you might need to target (use browser inspect tool) */
+
+/* Example: Styling for individual comment containers (if they have their own background) */
+/* This will depend on ReplyBox's internal structure. You'll need to inspect. */
+/*
+#replybox .rb-comment-container {
+    background-color: #383b40;
+    border-bottom: 1px solid #45484d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+*/
+
+/* Example: Author name in comments */
+/*
+#replybox .rb-author-name {
+    color: #add8e6;
+    font-weight: bold;
+}
+*/
+
+/* Example: Timestamp/Date in comments */
+/*
+#replybox .rb-timestamp {
+    color: #a0a0a0;
+    font-size: 0.9em;
+}
+*/
+
+/* Example: Reply/Like buttons within comments */
+/*
+#replybox .rb-action-button {
+    color: #add8e6;
+    font-size: 0.9em;
+}
+*/
+
+/* Error messages or success messages */
+/*
+#replybox .rb-message-error,
+#replybox .rb-message-success {
+    background-color: #604040;
+    color: #ffe0e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+*/
